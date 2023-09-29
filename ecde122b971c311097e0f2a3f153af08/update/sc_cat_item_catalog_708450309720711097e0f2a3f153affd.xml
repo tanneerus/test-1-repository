@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Legal Hold Request">32335cbc97ec311097e0f2a3f153afe2</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-06 14:12:59</sys_created_on>
+        <sys_id>708450309720711097e0f2a3f153affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Legal Hold Request</sys_name>
+        <sys_package display_value="Legal Hold Custom" source="x_885717_legal_hol">ecde122b971c311097e0f2a3f153af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Hold Custom">ecde122b971c311097e0f2a3f153af08</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_708450309720711097e0f2a3f153affd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-06 14:12:59</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

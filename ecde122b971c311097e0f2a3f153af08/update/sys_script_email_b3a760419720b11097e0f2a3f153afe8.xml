@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>legal_hold_request_portal_approvel</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          template.print('<a href="'+gs.getProperty("glide.servlet.uri")+'/sp?id=approval@table=sysapproval_approver&'+current.sys_id+'">'+'click here'+' </a>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-07 10:21:37</sys_created_on>
+        <sys_id>b3a760419720b11097e0f2a3f153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>legal_hold_request_portal_approvel</sys_name>
+        <sys_package display_value="Legal Hold Custom" source="x_885717_legal_hol">ecde122b971c311097e0f2a3f153af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Hold Custom">ecde122b971c311097e0f2a3f153af08</sys_scope>
+        <sys_update_name>sys_script_email_b3a760419720b11097e0f2a3f153afe8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-07 10:21:37</sys_updated_on>
+    </sys_script_email>
+</record_update>

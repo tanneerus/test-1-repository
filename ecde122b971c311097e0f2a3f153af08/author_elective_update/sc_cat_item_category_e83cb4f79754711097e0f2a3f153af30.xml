@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Legal hold request">f88b7c339794711097e0f2a3f153afcc</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 14:32:25</sys_created_on>
+        <sys_id>e83cb4f79754711097e0f2a3f153af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Legal hold request</sys_name>
+        <sys_package display_value="Legal Hold Custom" source="x_885717_legal_hol">ecde122b971c311097e0f2a3f153af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Hold Custom">ecde122b971c311097e0f2a3f153af08</sys_scope>
+        <sys_update_name>sc_cat_item_category_e83cb4f79754711097e0f2a3f153af30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 14:32:25</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Legal Hold Custom">ecde122b971c311097e0f2a3f153af08</application>
+        <file_path/>
+        <instance_id>800f4ef8db8161545dc32f17d4961935</instance_id>
+        <instance_name>dev148400</instance_name>
+        <name>sc_cat_item_category_e83cb4f79754711097e0f2a3f153af30</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Legal hold request">f88b7c339794711097e0f2a3f153afcc</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-03 14:32:25</sys_created_on><sys_id>e83cb4f79754711097e0f2a3f153af30</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Legal hold request</sys_name><sys_package display_value="Legal Hold Custom" source="x_885717_legal_hol">ecde122b971c311097e0f2a3f153af08</sys_package><sys_policy/><sys_scope display_value="Legal Hold Custom">ecde122b971c311097e0f2a3f153af08</sys_scope><sys_update_name>sc_cat_item_category_e83cb4f79754711097e0f2a3f153af30</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-03 14:32:25</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1358576790</payload_hash>
+        <record_name>Services.Legal hold request</record_name>
+        <reverted_from/>
+        <source>2cde122b971c311097e0f2a3f153af0a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 14:32:26</sys_created_on>
+        <sys_id>a43c78739794711097e0f2a3f153af09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bbd06e150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 14:32:26</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>e83c7873e3947110c9e8d6a05fcb2b08</update_guid>
+        <update_guid_history>e83c7873e3947110c9e8d6a05fcb2b08:1358576790</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Legal hold request">75e34d3b9794711097e0f2a3f153afe6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 15:06:06</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>07a4ef364d714f36a88c5f283561ae19</sys_id>
+        <sys_metadata>e83cb4f79754711097e0f2a3f153af30</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Legal hold request</sys_name>
+        <sys_package display_value="Legal Hold Custom" source="x_885717_legal_hol">ecde122b971c311097e0f2a3f153af08</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Legal Hold Custom">ecde122b971c311097e0f2a3f153af08</sys_scope>
+        <sys_scope_delete display_value="">03cc0a53449c40b99fd202197604fa59</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_e83cb4f79754711097e0f2a3f153af30</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_e83cb4f79754711097e0f2a3f153af30">a43c78739794711097e0f2a3f153af09</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 15:06:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="a05fd62b971c311097e0f2a3f153afa9" extends="task" label="Legal Hold Requests" max_length="40" name="x_885717_legal_hol_legal_hold_requests" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval" max_length="40" name="u_approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not_yet_requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="How the information collected?" mandatory="true" max_length="100" name="u_how_the_information_collected" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Legal case ID" mandatory="true" max_length="40" name="u_legal_case_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Legal hold end" max_length="40" name="u_legal_hold_end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Legal hold start" mandatory="true" max_length="40" name="u_legal_hold_start" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Legal hold to be placed on ?" mandatory="true" max_length="32" name="u_legal_hold_to_be_placed_on" reference="cmdb_ci_business_app" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="other matters" label="Legal Request Reason" mandatory="true" max_length="200" name="u_legal_request_reason" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Information Security Checks" sequence="0" value="information security checks"/>
+                <element inactive_on_update="false" label="Data subject request" sequence="1" value="data subject request"/>
+                <element inactive_on_update="false" label="Litigation(s) that does not involve investigations of employees" sequence="2" value="litigation(s) that does not involve investigations of employees"/>
+                <element inactive_on_update="false" label="Other Matters" sequence="3" value="other matters"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requester" max_length="100" name="u_requester" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Summary" max_length="160" name="u_summary" type="string"/>
+        <element label="Will the subject be informed about legal hold being conducted before the process" max_length="40" name="u_will_the_subject_be" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Will the subject be informed about legal hold being conducted before the process" mandatory="true" max_length="40" name="u_will_the_subject_be_informed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+    </element>
+</database>

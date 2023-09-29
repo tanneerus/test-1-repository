@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_legal_hold_to_be_placed_on" label="Legal hold to be placed on ?" language="en" table="x_885717_legal_hol_legal_hold_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_legal_hold_to_be_placed_on</element>
+            <help/>
+            <hint/>
+            <label>Legal hold to be placed on ?</label>
+            <language>en</language>
+            <name>x_885717_legal_hol_legal_hold_requests</name>
+            <plural>Legal hold to be placed on ?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 11:51:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Legal hold to be placed on ?</sys_name>
+            <sys_package display_value="Legal Hold Custom" source="x_885717_legal_hol">ecde122b971c311097e0f2a3f153af08</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Legal Hold Custom">ecde122b971c311097e0f2a3f153af08</sys_scope>
+            <sys_update_name>sys_documentation_x_885717_legal_hol_legal_hold_requests_u_legal_hold_to_be_placed_on_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 11:51:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
