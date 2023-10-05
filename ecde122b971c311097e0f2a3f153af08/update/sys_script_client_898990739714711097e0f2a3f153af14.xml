@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>assignment group shouldn't empty</name>
+        <name>Set assignment group mandatory</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     if (isLoading || newValue === '') {
@@ -28,15 +28,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>898990739714711097e0f2a3f153af14</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>assignment group shouldn't empty</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set assignment group mandatory</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Hold Custom" source="x_885717_legal_hol">ecde122b971c311097e0f2a3f153af08</sys_package>
         <sys_policy/>
         <sys_scope display_value="Legal Hold Custom">ecde122b971c311097e0f2a3f153af08</sys_scope>
         <sys_update_name>sys_script_client_898990739714711097e0f2a3f153af14</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-03 12:07:17</sys_updated_on>
+        <sys_updated_on>2023-10-05 15:39:37</sys_updated_on>
         <table>x_885717_legal_hol_legal_hold_requests</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
